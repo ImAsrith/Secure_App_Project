@@ -18,7 +18,7 @@ This Spring Boot application exposes a secured REST API for managing Employee re
 
 ### 1. Clone the repository  
 ```bash
-git clone <your-repo-URL> secure-app
+git clone https://github.com/ImAsrith/Secure_App_Project
 cd secure-app
 ````
 
@@ -46,14 +46,14 @@ The keystore password (`changeit`) is set in `src/main/resources/application.pro
 ### 3. Build the application
 
 ```bash
-mvn clean package
+./mvnw clean package
 ```
 
 ### 4. Run the application
 
 ```bash
 # Option A: Maven
-mvn spring-boot:run
+./mvnw spring-boot:run
 
 # Option B: Executable JAR
 java -jar target/secure-app-0.0.1-SNAPSHOT.jar
